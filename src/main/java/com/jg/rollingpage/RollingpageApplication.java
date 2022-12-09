@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.PostConstruct;
+
 @RestController
 @SpringBootApplication
 public class RollingpageApplication {
@@ -17,4 +19,7 @@ public class RollingpageApplication {
     public String home() {
         return "hello f";
     }
+
+
+
 }
